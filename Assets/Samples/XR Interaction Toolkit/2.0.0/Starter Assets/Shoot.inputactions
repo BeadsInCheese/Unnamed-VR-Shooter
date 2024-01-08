@@ -1,0 +1,54 @@
+{
+    "name": "Shoot",
+    "maps": [
+        {
+            "name": "Shoot",
+            "id": "7f6a84d4-7efe-43ea-9bbf-f3d6cf151dda",
+            "actions": [
+                {
+                    "name": "ShootRight",
+                    "type": "Button",
+                    "id": "2436960c-9f7d-4495-b66b-ae5552b53c6f",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "ShootLeft",
+                    "type": "Button",
+                    "id": "631d1f63-cf48-4f21-a3da-7db0b1dd7bb8",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "72f70890-bbc1-4916-b315-7db6bd7d7090",
+                    "path": "<XRController>{RightHand}/triggerPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ShootRight",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8b912306-4b8b-4302-a5e7-4ebbcabb36e2",
+                    "path": "<XRController>{LeftHand}/triggerPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ShootLeft",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
